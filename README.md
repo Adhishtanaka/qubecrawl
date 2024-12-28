@@ -4,7 +4,7 @@ qubecrawl is a lightweight Python library designed to make data conversion LLM-f
 
 
 <div style="text-align: center;">
-  <img src="logo.png" alt="qubecrawl logo" />
+  <img src="https://github.com/Adhishtanaka/qubecrawl/blob/main/logo.png" alt="qubecrawl logo" />
 </div>
 
 
