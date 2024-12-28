@@ -93,6 +93,12 @@ print(json_file)
   crawler = qubecrawl(ignore_links=True, ignore_img=False, clean=True)
   ```
 
+## qubecrawl in Action
+
+qubecrawl makes website code easily readable in Markdown format, unlike plain HTML, by removing unwanted elements like navigation bars, footers, ads, and modals using predefined patterns.
+
+![qubecrawl in action](./webscrap.gif)
+
 ## License
 
 This extension is open source and available under the [MIT License](LICENSE).

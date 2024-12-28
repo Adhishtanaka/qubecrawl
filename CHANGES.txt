@@ -8,3 +8,6 @@
   - Parsing by class, ID, or main content.
   - Asynchronous webpage metadata fetching.
   - Python 3.8+ support.
+
+## Version 0.1.1
+- improved readme.md

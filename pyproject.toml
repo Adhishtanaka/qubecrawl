@@ -1,6 +1,6 @@
 [project]
 name = "qubecrawl"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
   { name="Adhishtanaka Thiramithu Kulasooriya", email="kulasoooriyaa@gmail.com" },
 ]
