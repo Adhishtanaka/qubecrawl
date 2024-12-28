@@ -19,6 +19,12 @@ qubecrawl is a lightweight Python library designed to make data conversion LLM-f
 - **Image URL Resolution**: Automatically resolves relative image URLs to absolute paths.  
 - **Webpage Metadata and Headers Fetching**: Retrieve head data such as `<title>`, `<meta>`, and linked assets asynchronously.  
 
+## qubecrawl in Action
+
+qubecrawl makes website code easily readable in Markdown format, unlike plain HTML, by removing unwanted elements like navigation bars, footers, ads, and modals using predefined patterns.
+
+![qubecrawl in action](./webscrap.gif)
+
 ## Requirements  
 
 - Python 3.8 or higher.  
@@ -92,12 +98,6 @@ print(json_file)
   #default constuctor
   crawler = qubecrawl(ignore_links=True, ignore_img=False, clean=True)
   ```
-
-## qubecrawl in Action
-
-qubecrawl makes website code easily readable in Markdown format, unlike plain HTML, by removing unwanted elements like navigation bars, footers, ads, and modals using predefined patterns.
-
-![qubecrawl in action](./webscrap.gif)
 
 ## License
 
