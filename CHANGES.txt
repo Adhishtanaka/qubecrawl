@@ -1,0 +1,10 @@
+# CHANGES.txt
+
+## Version 0.1.0
+- Initial release of `qubecrawl`.
+- Features:
+  - HTML to Markdown conversion.
+  - HTML cleaning with customizable patterns.
+  - Parsing by class, ID, or main content.
+  - Asynchronous webpage metadata fetching.
+  - Python 3.8+ support.
