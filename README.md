@@ -1,6 +1,6 @@
 # qubecrawl
 
-qubecrawl is essentially a lightweight wrapper around html2text, designed to enhance its functionality for LLM-friendly workflows. It builds on the core capabilities of html2text by adding features like predefined patterns for cleaning unwanted elements, flexible parsing by tags, classes, or IDs, and asynchronous metadata fetching. This makes it a focused solution for converting HTML into clean Markdown, tailored for seamless integration with modern applications like web scraping and data preparation for Large Language Models. 
+qubecrawl is essentially a lightweight wrapper around html2text, designed to enhance its functionality for LLM-friendly workflows. It builds on the core capabilities of html2text by adding features like user defined patterns for cleaning unwanted elements, flexible parsing by tags, classes, or IDs, and asynchronous metadata fetching. This makes it a focused solution for converting HTML into clean Markdown, tailored for seamless integration with modern applications like web scraping and data preparation for Large Language Models. 
 
 
 <div style="text-align: center;">
