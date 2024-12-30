@@ -1,6 +1,6 @@
 # qubecrawl
 
-qubecrawl is a lightweight Python library designed to make data conversion LLM-friendly, allowing for seamless web scraping and HTML-to-Markdown transformation. With qubecrawl, you can effortlessly extract, clean, and transform web content into Markdown format for easy integration into your workflows.  
+qubecrawl is essentially a lightweight wrapper around html2text, designed to enhance its functionality for LLM-friendly workflows. It builds on the core capabilities of html2text by adding features like predefined patterns for cleaning unwanted elements, flexible parsing by tags, classes, or IDs, and asynchronous metadata fetching. This makes it a focused solution for converting HTML into clean Markdown, tailored for seamless integration with modern applications like web scraping and data preparation for Large Language Models. 
 
 
 <div style="text-align: center;">
@@ -10,8 +10,7 @@ qubecrawl is a lightweight Python library designed to make data conversion LLM-f
 
 ## Features  
 
-- **HTML to Markdown Conversion**: Converts HTML content to clean Markdown with options to ignore links or images.  
-- **Content Cleaning**: Automatically removes unwanted elements like navigation bars, footers, ads, and modals using predefined patterns.  
+- **HTML to Markdown Conversion**: Converts HTML content to clean Markdown with options to ignore links or images.   
 - **Flexible Parsing Options**:  
   - Extract content by `class` or `id`.  
   - Parse main content elements like `<main>` or `<article>`.  
@@ -73,19 +72,6 @@ print(json_file)
 
 - **Custom Patterns**: You can add or remove patterns to fine-tune content cleaning.
 
-  ```python
-  #default patterns
-   patterns = [
-        "nav", "menu", "navbar", "sidebar", "drawer", "breadcrumb", "side-nav", "sidenav", "header", "footer", 
-        "bottom-bar", "top-bar", "ad-", "ads-", "advertisement", "banner", "promo", "sponsored", "ads", "popup", 
-        "modal", "overlay", "dialog", "toast", "alert", "notification", "tracking", "analytics", "pixel", "beacon", 
-        "tag-manager", "disclaimer", "newsletter", "subscribe", "signup", "mailing-list", "search", "login", "register", 
-        "sign-in", "cookie", "gdpr", "consent", "privacy", "terms", "copyright", "hidden", "display-none", "invisible", 
-        "spacer", "gap", "background", "decoration", "ornament", "pattern", "gradient", "carousel", "slider", "lightbox", 
-        "tooltip", "dropdown", "skeleton", "placeholder", "loading", "shimmer", "spinner"
-    ]
-    ```
-  
   ```python
   crawler.add_pattern("custom-pattern") # Add custom pattern
   crawler.remove_pattern("nav") # Remove "nav" pattern

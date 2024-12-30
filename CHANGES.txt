@@ -11,3 +11,6 @@
 
 ## Version 0.1.1
 - improved readme.md
+
+# Version 0.1.2
+- fixed a bug

@@ -18,21 +18,7 @@ class qubecrawl:
         self.ignore_links = ignore_links
         self.ignore_img = ignore_img
         self.clean = clean
-        self.patterns = {
-            'nav', 'menu', 'navbar', 'sidebar', 'drawer', 'breadcrumb', 
-            'side-nav', 'sidenav', 'header', 'footer', 'bottom-bar', 
-            'top-bar', 'ad-', 'ads-', 'advertisement', 'banner', 'promo', 
-            'sponsored', 'ads', 'popup', 'modal', 'overlay', 'dialog', 
-            'toast', 'alert', 'notification', 'tracking', 'analytics', 
-            'pixel', 'beacon', 'tag-manager', 'disclaimer', 'newsletter', 
-            'subscribe', 'signup', 'mailing-list', 'search', 'login', 
-            'register', 'sign-in', 'cookie', 'gdpr', 'consent', 'privacy', 
-            'terms', 'copyright', 'hidden', 'display-none', 'invisible', 
-            'spacer', 'gap', 'background', 'decoration', 'ornament', 
-            'pattern', 'gradient', 'carousel', 'slider', 'lightbox', 
-            'tooltip', 'dropdown', 'skeleton', 'placeholder', 'loading', 
-            'shimmer', 'spinner'
-        }
+        self.patterns = {}
         
         self.check_patterns = True
 

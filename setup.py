@@ -2,12 +2,13 @@ from setuptools import setup, find_packages
 
 setup(
     name = "qubecrawl",
-    version = "0.1.1",
+    version = "0.1.2",
     packages=find_packages(where="src"),
     install_requires=[
         "beautifulsoup4",
         "html2text",
-        "lxml"
+        "lxml",
+        "requests"
     ],
     extras_require={
         "dev": [
