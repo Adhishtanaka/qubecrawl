@@ -4,7 +4,7 @@ qubecrawl is essentially a lightweight wrapper around html2text, designed to enh
 
 
 <div style="text-align: center;">
-  <img src="https://github.com/Adhishtanaka/qubecrawl/blob/main/logo.png" alt="qubecrawl logo" />
+  ![](https://github.com/Adhishtanaka/qubecrawl/blob/main/logo.png)
 </div>
 
 
